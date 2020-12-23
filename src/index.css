@@ -34,7 +34,7 @@ body {
   line-height: 1.5;
   font-size: 18px;
   letter-spacing: .1em;
-  background: var(--dark);
+  background: var(--darker);
   color: var(--light);
   font-family: 'Poiret One', cursive;
 
@@ -92,7 +92,10 @@ a:hover {
 }
 
 header {
-  background: var(--dark);
+  /* background: var(--dark); */
+  width: 100%;
+  background-image: linear-gradient(var(--dark), rgba(0, 0, 0, 0));
+  overflow: auto;
 }
 
 header a {
@@ -295,3 +298,8 @@ a {
 }
 
 /* note to self... Add new css after this comment and reorganize it later */
+
+nav {
+  margin-left: auto;
+  float:right;
+}
