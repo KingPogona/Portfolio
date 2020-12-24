@@ -18,7 +18,7 @@ function Header(props) {
 
     return (
         <header className="flex-row px-1">
-            <h2 className={`mx-2`}>Asher Clawson</h2>
+            <h2 className="mx-2">Asher Clawson</h2>
             <Nav
                 tabs={tabs}
                 setCurrentTab={setCurrentTab}

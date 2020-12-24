@@ -5,8 +5,9 @@ import Header from './components/Header';
 // import AboutMe from './components/AboutMe';
 // import Portfolio from './components/Portfolio';
 // import ContactMe from './components/ContactMe';
-// import Footer from './components/Footer';
 import ContentDisplay from './components/ContentDisplay';
+import Footer from './components/Footer';
+
 
 function App() {
   const [tabs] = useState([
@@ -27,7 +28,8 @@ function App() {
       <main>
         <ContentDisplay currentTab={currentTab}></ContentDisplay>
       </main>
-    </div>
+      <Footer></Footer>
+    </div >
   );
 }
 

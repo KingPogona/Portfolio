@@ -28,6 +28,8 @@ body {
 }
 
 body {
+  display: flex;
+  flex-direction: column;
   margin: 0;
   padding: 0;
   font-weight: 600;
@@ -298,6 +300,34 @@ a {
 }
 
 /* note to self... Add new css after this comment and reorganize it later */
+
+footer {
+  position: absolute;
+  width: 100%;
+  bottom: 0px;
+  background-image: linear-gradient( rgba(0, 0, 0, 0), var(--tertiary));
+
+}
+
+footer ul {
+  margin: auto;
+  width: fit-content;
+  margin-top: 30px;
+  /* border: 3px solid green; */
+  padding: 0 10px;
+}
+
+footer li {
+  padding: 0 15px;
+}
+
+.icon {
+  color: var(--light);
+}
+
+.icon:hover {
+  color: var(--darker);
+}
 
 nav {
   margin-left: auto;
