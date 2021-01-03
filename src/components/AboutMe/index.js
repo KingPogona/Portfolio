@@ -16,7 +16,7 @@ function AboutMe() {
                 </p>
             </div>
 
-            <div>
+            <div className= "aboutMe-img">
                 <img src={aacImage} alt="Asher Clawson"></img>
             </div>
 
