@@ -95,6 +95,7 @@ a:hover {
 
 header {
   /* background: var(--dark); */
+  position: fixed;
   width: 100%;
   background-image: linear-gradient(var(--dark), rgba(0, 0, 0, 0));
   overflow: auto;
@@ -301,8 +302,8 @@ a {
 
 /* note to self... Add new css after this comment and reorganize it later */
 
-footer {
-  position: absolute;
+.sticky-footer {
+  position: fixed;
   width: 100%;
   bottom: 0px;
   background-image: linear-gradient( rgba(0, 0, 0, 0), var(--tertiary));
@@ -312,7 +313,7 @@ footer {
 footer ul {
   margin: auto;
   width: fit-content;
-  margin-top: 30px;
+  /* margin-top: 30px; */
   /* border: 3px solid green; */
   padding: 0 10px;
 }

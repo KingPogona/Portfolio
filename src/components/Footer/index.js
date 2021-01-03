@@ -5,7 +5,7 @@ import { faLinkedin, faGithub, faStackOverflow } from '@fortawesome/free-brands-
 function Footer() {
 
     return (
-        <footer className="py-2">
+        <footer className="py-2 sticky-footer">
             <ul className="flex-row">
                 <li><a href="https://www.linkedin.com/in/asher-clawson-838236185">
                     <FontAwesomeIcon icon={faLinkedin} className="icon" size="3x" />
