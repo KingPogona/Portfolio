@@ -12,11 +12,14 @@ function AboutMe() {
 
             <div>
                 <p>
-                    I am a tech enthusiast with over 4 years of experience with a variety of technology focused roles. Over that period, I have been in charge of  automated regression development, I programmed a macro to help our employees rapidly convert from a variety of complex crypto tax documents to a form our product could import. I have also helped with IT, Dev ops, and several other unrelated positions. During That time, I have configured, monitored, and administered many company software deployments including Office 365, Zendesk, Slack, Monday, Test Studio, and Accredible.
+                    I am a tech enthusiast with over 4 years of experience with a variety of technology focused roles. Over that period, I have been in charge of automated regression development and developing a macro to help our employees rapidly convert a variety of complex crypto tax documents to a form our product could import. 
+                    </p>
+                <p>
+                    I have also helped with IT, Dev ops, and several other unrelated positions. In addition I have configured, monitored, and administered many company software deployments including Office 365, Zendesk, Slack, Monday, Test Studio, and Accredible.
                 </p>
             </div>
 
-            <div className= "aboutMe-img">
+            <div className="aboutMe-img">
                 <img src={aacImage} alt="Asher Clawson"></img>
             </div>
 

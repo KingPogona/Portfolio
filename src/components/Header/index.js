@@ -17,7 +17,7 @@ function Header(props) {
     }, [currentTab]);
 
     return (
-        <header className="flex-row px-1">
+        <header className="flex-row">
             <h2 className="center">Asher Clawson</h2>
             <Nav
                 tabs={tabs}

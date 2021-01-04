@@ -5,12 +5,17 @@ main {
 }
 
 :root {
-  --primary: #8c54ff;
-  --secondary: #F3A847;
-  --tertiary: #B12704;
-  --light: #fafafa;
+  --primary: #0AA9FF;
+  --secondary: #6A041D;
+  --tertiary: #274156;
+  --light: #ffffff;
+  --lighter: #eeeeee;
   --dark: #000000;
   --darker: #111111;
+  --Twhite: rgba(255, 255, 255, 0.3);
+  --Tlight: rgba(238, 238, 238, 0.2);
+  --Tgray: rgba(128, 128, 128, 0.3);
+  --Tblack: rgba(0, 0, 0, 0.4);
   --error: rgb(228, 46, 1);
   --spacing-one: calc(1rem * 0.5);
   --spacing-two: calc(1rem);
@@ -36,9 +41,13 @@ body {
   line-height: 1.5;
   font-size: 18px;
   letter-spacing: .1em;
-  background: var(--darker);
-  color: var(--light);
-  font-family: 'Poiret One', cursive;
+  background: var(--lighter);
+  color: var(--dark);
+  font-family: 'eorgia', serif;
+  text-shadow: 
+  -1px -2px 4px rgba(255, 255, 255, 0.1),
+    0 1px 1px rgba(0, 0, 0, 0.05),
+    2px 2px 2px rgba(0, 0, 0, 0.05);
 
 }
 
@@ -67,7 +76,8 @@ h3 {
 }
 
 h4 {
-  font-size: 1.5rem;
+  font-size: 1.4rem;
+  margin: 5px 0 0 0;
 }
 
 h5 {
@@ -94,10 +104,10 @@ a:hover {
 }
 
 header {
-  /* background: var(--dark); */
+  /* background: var(--lighter); */
   /* position: absolute; */
   width: 100%;
-  background-image: linear-gradient(var(--dark), rgba(0, 0, 0, 0));
+  background-image: linear-gradient(var(--Tblack), var(--Tgray) 92%, transparent);
   overflow: auto;
   z-index: 1000;
 }
@@ -106,6 +116,16 @@ header nav {
   font-size: 1.8rem;
 }
 
+.nav-tabs {
+  margin: 10px;
+  padding: 0;
+}
+
+.tab {
+  margin: 0 auto;
+}
+
+header,
 header a {
   color: var(--light);
 }
@@ -120,10 +140,25 @@ button {
   cursor: pointer;
   margin: 0 1px;
   background-color: var(--secondary);
+  transition: .3s;
+  box-shadow: 
+  -1px -2px 4px rgba(255, 255, 255, 1),
+    0 1px 1px rgba(0, 0, 0, 0.1),
+    2px 2px 2px rgba(0, 0, 0, 0.1),
+    0 4px 4px rgba(0, 0, 0, 0.1),
+    0 8px 8px rgba(0, 0, 0, 0.1);
+  
 }
 
 button:hover {
   opacity: .8;
+  transition: .1s;
+  box-shadow: 
+  -1px -2px 4px rgba(255, 255, 255, 0.8),
+    0 1px 1px rgba(0, 0, 0, 0.05),
+    2px 2px 2px rgba(0, 0, 0, 0.05),
+    0 4px 4px rgba(0, 0, 0, 0.05),
+    0 8px 8px rgba(0, 0, 0, 0.05);
 }
 
 button[disabled] {
@@ -146,7 +181,7 @@ form {
 input {
   font-size: 1rem;
   padding: 0.25rem;
-  border: 1px solid var(--dark);
+  border: 1px solid var(--lighter);
   outline: none;
   border-radius: 3px;
   transition: box-shadow 0.2s;
@@ -250,7 +285,7 @@ textarea {
   width: auto;
   min-width: 100%;
   /* max-width: 700px; */
-  height: 33vh;
+  height: 35vh;
   /* margin-bottom: 50px; */
   cursor: pointer;
   object-fit: cover;
@@ -271,7 +306,7 @@ textarea {
 }
 
 .modalContainer {
-  background: var(--darker);
+  background: var(--light);
   border-radius: 5px;
   max-width: 100%;
   margin: 50px auto;
@@ -317,8 +352,9 @@ a {
   position: fixed;
   width: 100%;
   bottom: 0px;
-  background-image: linear-gradient(rgba(0, 0, 0, 0), var(--tertiary));
+  background-image: linear-gradient(transparent, var(--Tgray) 8%, var(--Tblack));
   z-index: 1000;
+  padding: 10px 0 5px 0
 }
 
 footer ul {
@@ -326,7 +362,7 @@ footer ul {
   width: fit-content;
   /* margin-top: 30px; */
   /* border: 3px solid green; */
-  padding: 0 10px;
+  padding: 0 5px;
   /* z-index: 1000; */
 }
 
@@ -340,7 +376,8 @@ footer li {
 }
 
 .icon:hover {
-  color: var(--darker);
+  color: var(--primary);
+  text-shadow: 0 0 10px var(--secondary);
 }
 
 nav {
@@ -366,13 +403,19 @@ nav {
   transition: .5s;
   cursor: pointer;
   overflow: hidden;
+  box-shadow: 
+  -1px -2px 4px rgba(255, 255, 255, 0.8),
+    0 1px 1px rgba(0, 0, 0, 0.15),
+    2px 2px 2px rgba(0, 0, 0, 0.15),
+    0 4px 4px rgba(0, 0, 0, 0.15),
+    0 8px 8px rgba(0, 0, 0, 0.15);
 }
 
 .project-item a::after {
   content: "";
   height: 100%;
   width: 100%;
-  background: var(--light);
+  background: var(--primary);
   position: absolute;
   top: 0;
   left: 0;
@@ -381,14 +424,8 @@ nav {
   /* z-index: 5; */
 }
 
-/* .grid-item img {
-  position: absolute;
-  height: auto;
-  width: 100%;
-  z-index: 9997;
-} */
 
-.project-item a:hover::after {
+.project-item a:hover::after{
   opacity: .25;
 }
 
@@ -405,8 +442,8 @@ nav {
   bottom: 0px;
   width: 100%;
   /*  left: -200px;*/
-  background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, .4) 25%, rgba(0, 0, 0, .8));
-  /* padding: 5px 5px 5px 10px; */
+  background-image: linear-gradient(transparent, var(--Tgray) 8%, rgba(0, 0, 0, .8));
+  padding: 0 0 0 5px;
   /* margin: 15px 0px; */
   z-index: 5;
   transition: 0.5s;
@@ -415,21 +452,28 @@ nav {
 
 .project-text p {
   font-size: 16px;
-  color: var(--light);
+  color: var(--dark);
 }
 
 .github-link {
   z-index: 6;
+  font-size: 1.4rem;
 }
 
 .aboutMe-img {
   /* max-width: 30vw; */
   margin: 0 auto;
+  box-shadow: 
+  -1px -2px 4px rgba(255, 255, 255, 0.8),
+    0 1px 1px rgba(0, 0, 0, 0.1),
+    2px 2px 2px rgba(0, 0, 0, 0.1),
+    0 4px 4px rgba(0, 0, 0, 0.1),
+    0 8px 8px rgba(0, 0, 0, 0.1);
 }
 
 .center {
-    margin-left: auto;
-    margin-right: auto;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* Extra small devices (phones, 600px and down) */
@@ -448,13 +492,13 @@ nav {
     padding: 70px 30px;
   }
 
-  
+
   header {
-    /* background: var(--dark); */
+    /* background: var(--lighter); */
     position: fixed;
-    width: 100%;
-    background-image: linear-gradient(var(--dark), rgba(0, 0, 0, 0));
-    overflow: auto;
+    /* width: 100%; */
+    /* background-image: linear-gradient(var(--lighter), rgba(0, 0, 0, 0)); */
+    /* overflow: auto; */
     font-size: 1.7rem;
     z-index: 1000;
   }
@@ -468,24 +512,33 @@ nav {
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
 
-  header ul{
-    font-size: 1.2rem;
+  header ul {
+    font-size: 1.1rem;
+  }
+
+  .tab {
+    margin: .5rem;
   }
 
   h2 {
-    margin-top: .4em;
+    margin-top: .3em;
   }
 
   .center {
-  margin-right: var(--spacing-two);
-  margin-left: var(--spacing-two);
-}
+    margin-right: var(--spacing-two);
+    margin-left: var(--spacing-two);
+  }
 
-  .project-item, .img-thumbnail {
+  .project-item,
+  .img-thumbnail {
     height: 33vh;
     min-width: 40vw;
     max-width: 0;
     width: auto;
+  }
+
+  .project-text {
+    padding: 0 0 0 1rem;
   }
 
 }
@@ -493,35 +546,45 @@ nav {
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
 
-  
 
-  .project-item, .img-thumbnail {
+
+  .project-item,
+  .img-thumbnail {
     min-width: 35vw;
     max-width: 0;
     width: auto;
+  }
+
+  .project-text {
+    padding: .5rem 0 .3rem 1rem;
   }
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
 
-  header ul{
+  header ul {
     font-size: 2rem;
   }
 
   h2 {
-    margin-top: 1.1em;
+    margin-top: 1.3rem;
   }
 
   main {
     padding-top: 90px;
   }
 
-  .project-item, .img-thumbnail {
+  .project-item,
+  .img-thumbnail {
     min-width: 28vw;
     max-width: 0;
     width: auto;
   }
 
-  
+  .project-text {
+    padding: .5rem 0 .5rem 1rem;
+  }
+
+
 }

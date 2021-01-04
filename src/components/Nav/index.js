@@ -16,10 +16,10 @@ function Nav(props) {
 
     return (
         <nav>
-            <ul className="flex-row">
+            <ul className="flex-row nav-tabs">
                 {tabs.map((category) => (
                     <li
-                        className={`mx-1 ${currentTab.name === category.name && 'navActive'
+                        className={`tab ${currentTab.name === category.name && 'navActive'
                             }`}
                         key={category.name}
                     >
@@ -32,7 +32,7 @@ function Nav(props) {
                         </span>
                     </li>
                 ))}
-                <li className="mx-2">
+                <li className="tab">
                     <a href={ Pdf } rel="noreferrer" target="_blank">Resume</a>
                 </li>
             </ul>
