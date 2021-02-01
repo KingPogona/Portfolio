@@ -1,30 +1,31 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.1d4929dd.chunk.css",
-    "main.js": "/Portfolio/static/js/main.381172da.chunk.js",
-    "main.js.map": "/Portfolio/static/js/main.381172da.chunk.js.map",
-    "runtime-main.js": "/Portfolio/static/js/runtime-main.678beb52.js",
-    "runtime-main.js.map": "/Portfolio/static/js/runtime-main.678beb52.js.map",
-    "static/js/2.824ad7bf.chunk.js": "/Portfolio/static/js/2.824ad7bf.chunk.js",
-    "static/js/2.824ad7bf.chunk.js.map": "/Portfolio/static/js/2.824ad7bf.chunk.js.map",
-    "static/js/3.76fc795c.chunk.js": "/Portfolio/static/js/3.76fc795c.chunk.js",
-    "static/js/3.76fc795c.chunk.js.map": "/Portfolio/static/js/3.76fc795c.chunk.js.map",
+    "main.js": "/Portfolio/static/js/main.5cc8c83c.chunk.js",
+    "main.js.map": "/Portfolio/static/js/main.5cc8c83c.chunk.js.map",
+    "runtime-main.js": "/Portfolio/static/js/runtime-main.02ca5768.js",
+    "runtime-main.js.map": "/Portfolio/static/js/runtime-main.02ca5768.js.map",
+    "static/js/2.82b24f0a.chunk.js": "/Portfolio/static/js/2.82b24f0a.chunk.js",
+    "static/js/2.82b24f0a.chunk.js.map": "/Portfolio/static/js/2.82b24f0a.chunk.js.map",
+    "static/js/3.90b9abee.chunk.js": "/Portfolio/static/js/3.90b9abee.chunk.js",
+    "static/js/3.90b9abee.chunk.js.map": "/Portfolio/static/js/3.90b9abee.chunk.js.map",
     "index.html": "/Portfolio/index.html",
     "static/css/main.1d4929dd.chunk.css.map": "/Portfolio/static/css/main.1d4929dd.chunk.css.map",
-    "static/js/2.824ad7bf.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.824ad7bf.chunk.js.LICENSE.txt",
+    "static/js/2.82b24f0a.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.82b24f0a.chunk.js.LICENSE.txt",
     "static/media/IMG_0980.a5b513f5.jpeg": "/Portfolio/static/media/IMG_0980.a5b513f5.jpeg",
     "static/media/Resume.412c6e54.pdf": "/Portfolio/static/media/Resume.412c6e54.pdf",
     "static/media/WhatDoYouWantToEat.png": "/Portfolio/static/media/WhatDoYouWantToEat.b671abf4.png",
     "static/media/budget.png": "/Portfolio/static/media/budget.2e2f49d5.png",
+    "static/media/homepage.jpg": "/Portfolio/static/media/homepage.c7f94b92.jpg",
     "static/media/justTechNews.png": "/Portfolio/static/media/justTechNews.ad69f655.png",
     "static/media/main-view.PNG": "/Portfolio/static/media/main-view.92e0b6cd.PNG",
     "static/media/noted.png": "/Portfolio/static/media/noted.34e92286.png",
     "static/media/run-buddy.png": "/Portfolio/static/media/run-buddy.1fc57557.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.678beb52.js",
-    "static/js/2.824ad7bf.chunk.js",
+    "static/js/runtime-main.02ca5768.js",
+    "static/js/2.82b24f0a.chunk.js",
     "static/css/main.1d4929dd.chunk.css",
-    "static/js/main.381172da.chunk.js"
+    "static/js/main.5cc8c83c.chunk.js"
   ]
 }
