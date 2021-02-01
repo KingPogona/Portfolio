@@ -12,8 +12,8 @@ function AboutMe() {
 
             <div>
                 <p>
-                    I am a tech enthusiast with over 4 years of experience with a variety of technology focused roles. Over that period, I have been in charge of automated regression development and developing a macro to help our employees rapidly convert a variety of complex crypto tax documents to a form our product could import. 
-                    </p>
+                    I am a tech enthusiast with over 4 years of experience with a variety of technology focused roles. Over that period, I have been in charge of developing automated regression testing development as well as developing a macro to help our employees rapidly convert a variety of complex crypto tax documents to a form our product could import.
+                </p>
                 <p>
                     I have also helped with IT, Dev ops, and several other unrelated positions. In addition I have configured, monitored, and administered many company software deployments including Office 365, Zendesk, Slack, Monday, Test Studio, and Accredible.
                 </p>

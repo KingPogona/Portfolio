@@ -48,6 +48,13 @@ function Portfolio() {
       url: 'https://calm-harbor-05458.herokuapp.com/',
       github: 'https://github.com/KingPogona/Noted'
     },
+    {
+      name: 'Garage Sale',
+      image: 'homepage.jpg',
+      description: 'MERN stack',
+      url: 'https://garage-sale-project.herokuapp.com',
+      github: 'https://github.com/jesseparent/garage-sale'
+    },
   ]);
 
   // const currentProject = projects.filter((project) => projects.name === name);
