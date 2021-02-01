@@ -51,7 +51,7 @@ function Portfolio() {
     {
       name: 'Garage Sale',
       image: 'homepage.jpg',
-      description: 'MERN stack',
+      description: 'MERN Stack',
       url: 'https://garage-sale-project.herokuapp.com',
       github: 'https://github.com/jesseparent/garage-sale'
     },
