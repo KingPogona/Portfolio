@@ -107,7 +107,7 @@ header {
   /* background: var(--lighter); */
   /* position: absolute; */
   width: 100%;
-  background-image: linear-gradient(var(--Tblack), var(--Tgray) 92%, transparent);
+  background-image: linear-gradient(var(--Tgray) 97%, transparent);
   overflow: auto;
   z-index: 1000;
 }
@@ -352,7 +352,7 @@ a {
   position: fixed;
   width: 100%;
   bottom: 0px;
-  background-image: linear-gradient(transparent, var(--Tgray) 8%, var(--Tblack));
+  background-image: linear-gradient(transparent, var(--Tgray) 3%);
   z-index: 1000;
   padding: 10px 0 5px 0
 }
@@ -442,7 +442,7 @@ nav {
   bottom: 0px;
   width: 100%;
   /*  left: -200px;*/
-  background-image: linear-gradient(transparent, var(--Tgray) 8%, rgba(0, 0, 0, .8));
+  background-color: rgba(0, 0, 0, 0.2);
   padding: 0 0 0 5px;
   /* margin: 15px 0px; */
   z-index: 5;
