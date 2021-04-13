@@ -12,10 +12,17 @@ function AboutMe() {
 
             <div>
                 <p>
-                    I am a tech enthusiast with over 4 years of experience with a variety of technology focused roles. Over that period, I have been in charge of automated regression development and developing a macro to help our employees rapidly convert a variety of complex crypto tax documents to a form our product could import. 
-                    </p>
+                    I am a Full stack web developer with four years of experience working in IT, support, QA, regression testing
+                    development, and maintenance of company Hardware and software. I have experience with agile methodologies and
+                    have worked as an assistant database assistant and software developer.
+                </p>
                 <p>
-                    I have also helped with IT, Dev ops, and several other unrelated positions. In addition I have configured, monitored, and administered many company software deployments including Office 365, Zendesk, Slack, Monday, Test Studio, and Accredible.
+                    I have a Love for learning new skills, problem solving and incorporating new
+                    tools, methods, and technologies. I have successfully developed, researched, and implemented solutions to many
+                    difficult and diverse problems to accelerate team productivity and meet or exceed project goals.                
+                </p>
+                <p>
+                    
                 </p>
             </div>
 
